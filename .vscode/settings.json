@@ -2,15 +2,5 @@
     "eslint.codeAction.showDocumentation": {
         "enable": false
     },
-    "css.validate": false,
-    "less.validate": false,
-    "scss.validate": false,
-    "stylelint.enable": true,
-    "tailwindCSS.includeLanguages": {
-        "typescriptreact": "html"
-    },
-    "tailwindCSS.emmetCompletions": true,
-    "editor.quickSuggestions": {
-        "strings": true
-    }
+    "eslint.enable": false
 }
