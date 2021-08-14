@@ -9,8 +9,7 @@
     "lint": "next lint",
     "export": "next export",
     "start:build": "serve out",
-    "pre:deploy": "yarn build && yarn export && touch ../build/.nojekyll",
-    "postbuild": "cp -a out/. ../build"
+    "heroku-postbuild": "yarn build"
   },
   "dependencies": {
     "next": "11.1.0",
